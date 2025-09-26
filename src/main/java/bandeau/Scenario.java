@@ -41,10 +41,10 @@ public class Scenario {
 
     /**
      * Lancer plusieurs bandeaux en même temps 
-     */
+     
     public void playOnAll(Bandeau... bandeaux) {
         for (Bandeau b : bandeaux) {
             new Thread(() -> playOn(b)).start();
         }
-    }
+    }*/ 
 }
